@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import Experience from './pages/Experience';
+import Readings from './pages/Readings';
 import './App.css';
 
 function App() {
@@ -10,13 +11,14 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h1>Welcome to My Personal Website</h1>
+          <h1>Hi, I'm Carolyn</h1>
           <nav>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/contact">Contact Info</Link></li>
-              <li><Link to="/blog">Blog Posts</Link></li>
+              <li><Link to="/blog">Thoughts & Musings</Link></li>
+              <li><Link to="/readings">What I'm Reading</Link></li>
               <li><Link to="/experience">Professional Experience</Link></li>
+              <li><Link to="/contact">Contact Info</Link></li>
             </ul>
           </nav>
         </header>
@@ -25,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/readings" element={<Readings />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
@@ -36,8 +39,8 @@ function App() {
 function Home() {
   return (
     <section>
-      <h2>About Me</h2>
-      <p>This is the homepage of my personal website.</p>
+      <h2>Hi, I'm Carolyn</h2>
+      <p>This website is under construction. Come back soon! (or follow along, up to you!)</p>
     </section>
   );
 }
