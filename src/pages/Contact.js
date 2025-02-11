@@ -3,9 +3,9 @@ import React from 'react';
 function Contact() {
   return (
     <section>
-      <h2>Get in Touch</h2>
-      <p>Email: your-email@example.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <h2>where you can find me</h2>
+      <p>email: qu.carolyn@gmail.com</p>
+      <a href="https://www.linkedin.com/in/qucarolyn" target="_blank" rel="noopener noreferrer">linkedin.com/qucarolyn</a>
     </section>
   );
 }
