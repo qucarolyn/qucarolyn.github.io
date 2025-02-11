@@ -39,8 +39,10 @@ function App() {
 function Home() {
   return (
     <section>
-      <h2>Hi, I'm Carolyn</h2>
-      <p>This website is under construction. Come back soon! (or follow along, up to you!)</p>
+      <h2>hi, I'm carolyn </h2>
+      <p>this website is very much under construction. come back soon :)</p>
+      <p style={{ fontSize: '12px' }}>(or follow along, up to you!)
+      </p>    
     </section>
   );
 }
